@@ -1,0 +1,176 @@
+body {
+    margin: 0;
+    font-family: Arial;
+    padding: 0;
+    background-color: white; 
+    align-items: center;
+    
+}
+/* Header styling */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(to right, #000000, #013a72, #145ca3);
+    color: white;
+    padding: 5px ;
+    width: 33%;
+    margin: 0 auto;
+}
+
+.logo img {
+    width: 100px;
+    height: 30px;
+}
+
+.header-text {
+    text-align: center;
+}
+
+.header-text span {
+    font-size: 14px;
+}
+
+.logo img {
+    width: 100px;
+    height: 30px;
+}
+
+/* Financial summary section */
+.fin {
+    background-color: #003366;
+    color: white;
+    padding: 0px;
+    margin: 5px auto;
+    text-align: center;
+    width: 31%;
+    
+}
+
+.fin h3 {
+    font-size: 18px;
+    margin: 2px auto;
+    font-size: 18px;
+}
+
+/* Case summary and highlights */
+.case-summary {
+    background-color: #003366;
+    color: white;
+    padding: 0px;
+    margin: 7px auto;
+    text-align: center;
+    width: 31%;
+}
+
+.case-summary h2 {
+    margin: 5px auto;
+    font-size: 18px;
+    
+}
+
+.highlights {
+    background-color: #003366;
+    color: white;
+    padding: 5px;
+    margin: 0 auto;
+    text-align: center;
+    width: 15%;
+    font-size: 12px;
+    position: relative;
+    z-index: 1000;
+}
+
+.highlights h3 {
+    margin: 0;
+    font-size: 14px;
+}
+
+.ol-container {
+    border: 2px dotted #003366;
+    border-radius: 10%;
+    height: 430px;
+    padding: 10px;
+    margin-top: -10px;
+    background-color: white;
+    width: 32%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+
+/* Ensure proper spacing */
+div {
+    box-sizing: border-box;
+}
+
+ol{
+    padding: 5px;
+    margin-top: 5px;
+    color: rgb(68, 56, 245);
+    text-align: match-parent;
+    position: fixed;
+    left: 50%;
+    width: 30%;
+    transform: translateX(-50%);
+    box-sizing: border-box; 
+    z-index: 1;
+    margin: 10px;
+    
+}
+.blueline {
+    background-color: #003366;
+    color: rgb(65, 4, 134); 
+    text-align: center;
+    position: fixed;
+    left: 50%;
+    width: 100%;
+    bottom: 5;
+    height: 30px;
+    transform: translateX(-50%);
+    box-sizing: border-box; 
+    z-index: 1000;
+    padding: 0;
+}
+
+table {
+    width: 32%;
+    border-collapse: separate;
+    border-spacing: 7px;
+    margin: 0 auto;
+}
+
+th {
+    background-color: #000033; 
+    color: white;
+    width: 45%;
+    padding: 2px;
+    font-size: 14px;
+    
+}
+
+td, input {
+    background-color: #edeff5;
+    color: white;
+    padding: 1px;
+    font-size: 12px;
+    
+}
+
+.param-cell {
+    background-color: #0427a5; 
+    color: white;
+    text-align: left;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+input {
+    width: 100%;
+    border: 1px solid #0000FF;
+    text-align: center;
+    font-size: 12px;
+}
+.equal-width {
+    width: 20%;
+}
